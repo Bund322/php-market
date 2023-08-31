@@ -1,0 +1,33 @@
+.info-table {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 40px 0 0 0;
+    border: 1px solid #383940;
+    color: #F1F1F1;
+}
+
+.info-table-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 5px;
+}
+
+.info-table-row:not(:last-child) {
+    border-bottom: 1px solid #383940;
+}
+
+.info-table-header {
+    width: 100%;
+    padding: 5px 0 5px 10px;
+    border-bottom: 1px solid #383940;
+}
+
+.info-table-col5--green {
+    color: #0ea600;
+}
+
+.info-table-col5--red {
+    color: red;
+}
